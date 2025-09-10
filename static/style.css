@@ -1,0 +1,65 @@
+/* Убираем стандартные отступы */
+* {
+margin: 10px ;
+padding: 1px ;
+box-sizing: border-box;
+
+}
+
+input, button {
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+#ContactForm {
+    width: 100%;
+    max-width: 450px;
+    margin: 10 px;
+    padding: 20px;
+    background: rgb(0, 187, 255);
+    border: solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 20px;
+
+    background-image: url("узор.png");
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 7 px;
+    font-weight: bold;
+}
+
+input {
+    width: 150px;
+    padding: 4 px;
+    border: 3px solid purple ;
+    border-radius: 10px;
+}
+
+input:focus {
+    border-color: rgb(208, 255, 0);
+    box-shadow: 0 0 5px gray;
+    background-color: cornflowerblue;
+}
+
+button {
+    width: 100%;
+    margin: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(157, 175, 246);
+}
+
+button:hover {
+    background-color: white; 
+
+}
